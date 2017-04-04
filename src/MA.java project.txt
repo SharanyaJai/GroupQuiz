@@ -1,0 +1,25 @@
+MA,E,What of the following are access modifiers?,public,correct,private,correct,static,incorrect,final,incorrect
+MA,H,Select all valid statements from the following,AbstractSet extends AbstractCollection,correct,Hashset extends AbstractCollection,correct,Vector extends AbstractList,correct,none,incorrect
+MA,E,Which methods are not implemented if any class imp?,lements runnable interface,start(),correct,run(),incorrect,wait(),correct,notify() and notifyAll(),correct
+MA,M,Which of the following is a method of thread class?,public void run(),correct,Public void start(),correct,public void exit(),incorrect,public final int getPriority(),correct
+MA,M,What of the following is used to execute thread one after the another,The keyword synchronized is used,correct,the keywork synchronizable is used,incorrect,The keyword synchronize is used,incorrect,Only the first option is right,correct
+MA,M,DataInputStream is not an example of which of the following,Output stream,correct,Filterd stream,incorrect,I/O stream,correct,File stream,correct
+MA,M,Which of the following is not the parent class of Error,Throwable,incorrect,Catchable,correct,Mainerror,correct,MainException,correct
+MA,H,What of the following is not synchronized,Set,correct,LinkedList,correct,Vector,incorrect,WeakHashMap,correct
+MA,M,Which of the following are false statements,HashTable is a sub class of Dictionary,incorrect,ArrayList is a subclass of Vector,correct,LinkedList is a subclass of ArrayList,correct,Vector is a subclass of Stack,correct
+MA,E,What is NOT an interface?,An interface is a collection of abstract methods,correct,Interface is an abstract class,correct,Interface is an concrete class,incorrect,None of the above gives the correct definition of interface,incorrect
+MA,M,When a thread terminates its processing then which state will it enter into?,Waiting state(),incorrect,Running state,incorrect,Dead state,correct,Only one of the above options is correct,correct
+MA,M,Dynamic binding does not use which of the following information for binding?,type,correct,object,incorrect,object and type,incorrect,None of the above is true,incorrect
+MA,M,Which of the following is not kind of  Garbage collector thread,Non daemon thread,correct,Daemon thread,incorrect,Thread with dead state,correct,Thread with non dead state,correct
+MA,H,Which of the following is a thread safe?,StringBuilder,incorrect,StringBuffer,correct,Both the above,incorrect,either StringBuffer or StringBuilder,correct
+MA,E,Which of the following is not preferred to create a string "Welcome to Java Programming",String str="Welcome to Java Programming",incorrect,String str=new String("Welcome to Java Programming"),correct,String str;str="Welcome to java programming",correct,String str;str=new String("Welcome to Java Programming"),correct
+MA,E,All the wrapper classes in Java are not the following,private,correct,serializable,correct,immutable,correct,final,incorrect
+MA,H,The classs java.lang.Exception is,protected,incorrect,extends throwable,correct,implements throwable,incorrect,none of the above is true,incorrect
+MA,E,How many numeric data types are supported by Java,6,correct,4,incorrect,2,incoorect,more than 4,correct
+MA,E,Which of the following data type can 9.64 fall into,int,incorrect,Double,incorrect,double,correct,float,correct 
+MA,H,Which method cannot be implemented by all threads,wait(),correct,start(),correct,stop(),correct,run(),incorrect
+MA,E,What can be the datatype of the result of 2+3*5,17 byte,incorrect,17 int,correct,17 float,correct,25 int,incorrect
+MA,H,Which of the following is not a marker interface?,seriable,incorrect,comparable,correct,cloneable,correct,Only one of the above is correct,correct
+MA,E,Which of the following is not a return type?,boolean,incorrect,void,incorrect,pulic,correct,private,correct
+MA,H,What are the two parts of a value of type double?,significant digits,correct,length,incorrect,mode,incorrect,exponent,correct
+MA,H,What cannot be called as an aggregate object?,An object with only primitive attributes,correct,An instance which has only static methods,correct,An instance which has other objects,incorrect,An instance which has both static and other objects,correct

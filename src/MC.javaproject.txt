@@ -1,0 +1,25 @@
+MC,E,What is the size of byte variable?,8 bit,correct,16 bit,incorrect,32 bit,incorrect,64 bit,incorrect
+MC,E,What is the size of float variable?,8 bit,incorrect,16 bit,incorrect,32 bit,correct,64 bit,incorrect
+MC,E,What is the default value of string variable?,"",incorrect,",incorrect,null,correct,not defined,incorrect
+MC,M,What is an applet?,An applet is a Java program that runs in a web browser,correct,Applet is a standalone java program,incorrect,Applet is a tool,incorrect,Applet is a run time environment,incorrect
+MC,M,What is serialization?,Serialization is a process of writing the state of an object to another object,incorrect,Serialization is the process of writing the state of an object to a byte stream,correct,Both the above,incorrect,None of the above,incorrect
+MC,M,What is a marker interface?,Marker interface is an interface with no method,correct,Marker interface is an interface with single method mark(),incorrect,Marker interface is a dummy interface,incorrect,none of the above,incorrect
+MC,M,This is a parent of Error and Exception classes?,Throwable,correct,Catchable,incorrect,Mainerror,incorrect,MainException,incorrect
+MC,E,What is composition,Composition is a data structure,incorrect,Composition is a way to create an object,incorrect,Holding the reference of the other class within some other class is known as composition,correct,None of the above,incorrect
+MC,M,What happens when threads sleep() method is called?,Thread return to the ready state,incorrect,Thread return to the waiting state,correct,Thread starts running,incorrect,None of the above,incorrect
+MC,E,What is an interface?,An interface is a collection of abstract methods,incorrect,Interface is an abstract class,incorrect,Interface is an concrete class,correct,none,incorrect
+MC,M,What is runtime polymorphism?,Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than at compile time,correct,Runtime polymorphism is a process in which a call to an overloaded method is resolved at runtime rather than at compile time,incorrect,Both the above,incorrect,none,incorrect
+MC,M,Dynamic binding uses which information for binding?,type,incorrect,object,correct,Both the above,incorrect,none,incorrect
+MC,M,What happens when threads yield() method is called,Thread return to the ready state,correct,Thread returns to the waiting state,incorrect,Thread starts running,incorrect,None,incorrect
+MC,E,Which of the following is a thread safe?,StringBuilder,incorrect,StringBuffer,correct,Both the above,incorrect,None of the above,incorrect
+MC,E,What is the default value of short variable?,0.0,correct,0,incorrect,null,incorrect,undefined,incorrect
+MC,E,Static binding uses which information for binding?,type,correct,object,incorrect,both the above,incorrect,none,incorrect
+MC,H,Which one of StringBuilder and StringBuffer is faster,StringBuffer,incorrect,StringBuilder,correct,Both the above,incorrect,None,incorrect
+MC,H,What is the default value of an instance variable,null,incorrect,0,incorrect,Depends upon type of variables,correct,not assigned,incorrect
+MC,H,Deletion is faster in LinkedList than ArrayList,true,correct,false,incorrect,Depends on the situation,incorrect,none,incorrect
+MC,H,Which method must be implemented by all threads,wait(),incorrect,start(),incorrect,stop(),incorrect,run(),correct
+MC,H,Is it necessary that try block must be followed by finally block,Yes,incorrect,No,correct,Sometimes,incorrect,none,incorrect
+MC,H,What invokes a thread run() method,Main application running the thread,incorrect,JVM invokes the thread's run() method when the thread is initially executed,correct,Start() method of the thread class,incorrect,none,incorrect
+MC,H,Which of the following is a marker interface?,seriable,correct,comparable,incorrect,cloneable,incorrect,none,incorrect
+MC,H,In which case a program is expected to recover?,if an error occurs,incorrect,if an exception occurs,correct,Both the above,incorrect,none,incorrect
+MC,H,When a finally block gets executed?,Always when a method get executed eventhough there is an exception or no exception,incorrect,Always when a try block get executed no matter exception occured or not,correct,Always when a try block get executed only if exception do not occur,incorrect,Only when exception occurs in try block code,incorrect

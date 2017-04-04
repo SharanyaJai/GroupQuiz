@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.TeacherSignUpController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="5.0" layoutY="4.0" prefHeight="486.0" prefWidth="679.0">
+         <children>
+            <ImageView fitHeight="485.0" fitWidth="679.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Logo.png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="field3" layoutX="310.0" layoutY="321.0" />
+            <Label layoutX="68.0" layoutY="219.0" prefHeight="27.0" prefWidth="168.0" text="Andrewid" />
+            <Label layoutX="68.0" layoutY="271.0" prefHeight="27.0" prefWidth="167.0" text="Password" />
+            <Label layoutX="67.0" layoutY="327.0" prefHeight="27.0" prefWidth="168.0" text="Confirm Password" />
+            <Button fx:id="signup" layoutX="251.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#SignUp" prefHeight="39.0" prefWidth="136.0" text="SIGN UP">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="field1" layoutX="310.0" layoutY="213.0" />
+            <PasswordField fx:id="field2" layoutX="310.0" layoutY="265.0" />
+            <Label fx:id="label1" layoutX="178.0" layoutY="284.0" prefHeight="27.0" prefWidth="191.0" text="Passwords Don't Match" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

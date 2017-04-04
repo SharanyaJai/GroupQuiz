@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.testSelectionController">
+    <children>
+        <ImageView fitHeight="460.0" fitWidth="618.0" layoutX="-3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Logo.png" />
+            </image>
+        </ImageView>
+        <ComboBox fx:id="difficultyCombo" layoutX="211.0" layoutY="175.0" prefWidth="150.0" />
+        <ComboBox fx:id="typeCombo" layoutX="211.0" layoutY="227.0" prefWidth="150.0" />
+        <ComboBox fx:id="qNumberCombo" layoutX="211.0" layoutY="282.0" prefWidth="150.0" />
+        <TextField layoutX="27.0" layoutY="227.0" text="Questions Type" />
+        <TextField layoutX="27.0" layoutY="282.0" text="Number of questions" />
+        <Label fx:id="label" layoutX="27.0" layoutY="57.0" prefHeight="46.0" prefWidth="536.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField layoutX="27.0" layoutY="175.0" text="Difficulty" />
+        <Button fx:id="startTest" layoutX="496.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#testCreation" text="Start Test" />
+    </children>
+</AnchorPane>

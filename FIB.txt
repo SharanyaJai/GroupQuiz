@@ -1,0 +1,25 @@
+FIB,E,The inventor of Java was_____________,James Gosling
+FIB,M,A________________ is a program that translates programs to a simpler language that the computer can execute,compiler
+FIB,M,Another term for information hiding is called ____________,encapsulation
+FIB,E,A ____________has information as either 1 or 0,bit
+FIB,E,The ____________is a part of a computer that follows instructions,processor
+FIB,E,The _____________ is a set of instructions that tells strategies for solving a program,algorithm
+FIB,M,The _____________statement is used to include another Java package in a Java source file,import
+FIB,M,It is possible to throw an exception explicitely using the ___________ statement,throws
+FIB,M,_________________ inheritence is not supported by java,multiple
+FIB,E,A ____________________is a collection of classes and interfaces,package
+FIB,M,A_____________ variable has memory allocated only once and remains unchanged,static
+FIB,M,A subclass can call a constructor method defined by its super class by use of the ___________keyword,super
+FIB,E,Java uses ______________ to represent characters,unicode
+FIB,H,In java all user interface elements are subclasses of ______________,application
+FIB,H,A method declared with ______________modifier cannot be overridden,abstract
+FIB,M,Methods defined in an interface must be Public and ____________,abstract
+FIB,E,__________________members are accessible from objects and the subclass objects,public
+FIB,E,_______________members are not accessible outside object scope,private
+FIB,H,A_________________ file is a text file in the java language created by a programmer with a text editor,sourcecode
+FIB,M,The___________is a method where the source code starts running,main
+FIB,H,Say that your program was compiled without problems but when your run it something goes wrong.This is called________________,bug
+FIB,E,The ___________ are written next to program for the reader to understand the program,comments
+FIB,M,The __________statement is used to include another package source files in your current package,import
+FIB,H,__________is a java compiler,javac
+FIB,H,____________ function return a character at a specified index,charAt

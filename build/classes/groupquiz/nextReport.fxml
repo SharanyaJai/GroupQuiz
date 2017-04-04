@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.NextReportController">
+   <children>
+      <BarChart fx:id="bar12" layoutX="14.0" layoutY="14.0" prefHeight="263.0" prefWidth="295.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button fx:id="printbutton" layoutX="83.0" layoutY="317.0" mnemonicParsing="false" onDragExited="#printe" onMouseClicked="#printer" prefHeight="39.0" prefWidth="187.0" text="PRINT TO PDF" />
+      <Button fx:id="logout" layoutX="383.0" layoutY="317.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="39.0" prefWidth="164.0" text="LOG OUT" />
+   </children>
+</AnchorPane>

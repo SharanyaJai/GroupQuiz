@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="600.0" text="Teacher Login" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.TeacherScreenController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="label-header">
+         <children>
+            <ImageView fitHeight="548.0" fitWidth="600.0">
+               <image>
+                  <Image url="@../Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="loginbtn" layoutX="223.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#teacherLogIn" prefHeight="39.0" prefWidth="145.0" text="LOGIN">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <TextField fx:id="field1" layoutX="214.0" layoutY="209.0" />
+            <PasswordField fx:id="field2" layoutX="214.0" layoutY="268.0" />
+            <Button fx:id="signUpbtn" layoutX="223.0" layoutY="402.0" mnemonicParsing="false" onMouseClicked="#teacherSignUp" prefHeight="39.0" prefWidth="145.0" text="SIGN UP">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="label1" layoutX="195.0" layoutY="304.0" text="      Invalid Credentials!" visible="false" />
+           <Label layoutX="65.0" layoutY="209.0" prefHeight="27.0" prefWidth="136.0" styleClass="background" text="Andrew ID" />
+
+      <Label layoutX="65.0" layoutY="274.0" prefHeight="27.0" prefWidth="113.0" styleClass="background" text="Password" />
+      
+      </children>
+      </AnchorPane>
+   </content>
+</TitledPane>

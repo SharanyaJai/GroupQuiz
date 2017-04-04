@@ -1,0 +1,43 @@
+TF,M,Methods defined in an interface must be private,false
+TF,M,The compiler converts source code files into byte code files,true
+TF,M,It is not possible to define a method in the subclass that has the same name,same arguments and the same return type,false
+TF,E,Java.sql is used for manipulation of database,true
+TF,M,Java does noot provide destructors,true
+TF,H,In java it is possible to overload two functions which have the same parameter list but different return values,false
+TF,H,If a class implements an interface it must implement all the methods declared by that interface,true
+TF,H,If a class definition does not explicitly put a class into a package,the class belongs to the default package,true
+TF,H,A class declaration can include both abstract and final modifiers,true
+TF,H,An exception is an object that is generated when a run time error occurs,true
+TF,H,Declarations must appear at the start of the body of a Java method,false
+TF,H,All bitwise operations are carried out with the same level of precedence in Java,false
+TF,H,The switch selection structure must end with default,false
+TF,M,Variables declared inside a for loop are limited in scope to the loop,false
+TF,M,Objects of a super class can always be assigned to a subclass reference,false
+TF,M,Objects of a subclass can be assigned to a super class reference,true
+FIB,E,The inventor of Java was_____________,James Gosling
+FIB,M,A________________ is a program that translates programs to a simpler language that the computer can execute,compiler
+FIB,M,Another term for information hiding is called ____________,encapsulation
+FIB,E,A ____________has information as either 1 or 0,bit
+FIB,E,The ____________is a part of a computer that follows instructions,processor
+FIB,E,The _____________ is a set of instructions that tells strategies for solving a program,algorithm
+FIB,M,The _____________statement is used to include another Java package in a Java source file,import
+FIB,M,It is possible to throw an exception explicitely using the ___________ statement,throw
+FIB,M,_________________ inheritence is not supported by java,multiple
+FIB,E,A ____________________is a collection of classes and interfaces,package
+FIB,M,A_____________ variable has memory allocated only once and remains unchanged,static
+FIB,M,A subclass can call a constructor method defined by its super class by use of the ___________keyword,super
+FIB,E,Java uses ______________ to represent characters,unicode
+FIB,H,In java all user interface elements are subclasses of ______________,Collections
+FIB,H,A method declared with ______________modifier cannot be overridden,abstract
+FIB,M,Methods defined in an interface must be Public and ____________,abstract
+FIB,E,__________________members are accessible from objects and the subclass objects,public
+FIB,E,_______________members are not accessible outside object scope,private
+FIB,H,A_________________ file is a text file in the java language created by a programmer with a text editor,sourcecode
+FIB,M,The___________is a method where the source code starts running,main
+FIB,H,Say that your program was compiled without problems but when your run it something goes wrong.This is called________________,bug
+FIB,E,The ___________ are written next to program for the reader to understand the program,comments
+FIB,M,The __________statement is used to include another package source files in your current package,import
+FIB,H,__________is a java compiler,javac
+FIB,H,____________ function return a character at a specified index,charAt
+MA,E,What of the following are access modifiers?,public,correct,private,correct,static,incorrect,final,incorrect
+MC,H,Which of the following is a marker interface?,seriable,correct,comparable,incorrect,cloneable,incorrect,none,incorrect

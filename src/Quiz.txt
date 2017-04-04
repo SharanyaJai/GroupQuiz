@@ -1,0 +1,100 @@
+TF,E,Java is an OOP language,true
+TF,E,Java has a keyword called finally,true
+TF,E,Java supports multithreading,true
+TF,EThe object created by string class can be modifies,false
+TF,E,Java supports operator overloading,false
+TF,M,Java does not support operator overloading,true
+TF,E,The full form of API is abstract package interface,false
+TF,M,Private modifier can be invoked only by code in subclass,false
+TF,E,Instance variables are declared outside class,false
+TF,M,Methods defined in an interface must be private,false
+TF,M,The compiler converts source code files into byte code files,true
+TF,M,It is not possible to define a method in the subclass that has the same name and the same return type,false
+TF,E,Java.sql is used for manipulation of database,true
+TF,M,Java does noot provide destructors,true
+TF,H,In java it is possible to overload two functions which have the same parameter list but different return values,false
+TF,H,If a class implements an interface then it must implement all the methods declared by that interface,true
+TF,H,If a class definition does not explicitly put a class into a package the class belongs to the default package,true
+TF,H,A class declaration can include both abstract and final modifiers,true
+TF,H,An exception is an object that is generated when a run time error occurs,true
+TF,H,Declarations must appear at the start of the body of a Java method,false
+TF,H,All bitwise operations are carried out with the same level of precedence in Java,false
+TF,H,The switch selection structure must end with default,false
+TF,M,Variables declared inside a for loop are limited in scope to the loop,false
+TF,M,Objects of a super class can always be assigned to a subclass reference,false
+TF,M,Objects of a subclass can be assigned to a super class reference,true
+MC,E,What is the size of byte variable?,8 bit,correct,16 bit,incorrect,32 bit,incorrect,64 bit,incorrect
+MC,E,What is the size of float variable?,8 bit,incorrect,16 bit,incorrect,32 bit,correct,64 bit,incorrect
+MC,E,What is the default value of string variable?,"",incorrect,",incorrect,null,correct,not defined,incorrect
+MC,M,What is an applet?,An applet is a Java program that runs in a web browser,correct,Applet is a standalone java program,incorrect,Applet is a tool,incorrect,Applet is a run time environment,incorrect
+MC,M,What is serialization?,Serialization is a process of writing the state of an object to another object,incorrect,Serialization is the process of writing the state of an object to a byte stream,correct,Both the above,incorrect,None of the above,incorrect
+MC,M,What is a marker interface?,Marker interface is an interface with no method,correct,Marker interface is an interface with single method mark(),incorrect,Marker interface is a dummy interface,incorrect,none of the above,incorrect
+MC,M,This is a parent of Error and Exception classes?,Throwable,correct,Catchable,incorrect,Mainerror,incorrect,MainException,incorrect
+MC,E,What is composition,Composition is a data structure,incorrect,Composition is a way to create an object,incorrect,Holding the reference of the other class within some other class is known as composition,correct,None of the above,incorrect
+MC,M,What happens when threads sleep() method is called?,Thread return to the ready state,incorrect,Thread return to the waiting state,correct,Thread starts running,incorrect,None of the above,incorrect
+MC,E,What is an interface?,An interface is a collection of abstract methods,incorrect,Interface is an abstract class,incorrect,Interface is an concrete class,correct,none,incorrect
+MC,M,What is runtime polymorphism?,Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than at compile time,correct,Runtime polymorphism is a process in which a call to an overloaded method is resolved at runtime rather than at compile time,incorrect,Both the above,incorrect,none,incorrect
+MC,M,Dynamic binding uses which information for binding?,type,incorrect,object,correct,Both the above,incorrect,none,incorrect
+MC,M,What happens when threads yield() method is called,Thread return to the ready state,correct,Thread returns to the waiting state,incorrect,Thread starts running,incorrect,None,incorrect
+MC,E,Which of the following is a thread safe?,StringBuilder,incorrect,StringBuffer,correct,Both the above,incorrect,None of the above,incorrect
+MC,E,What is the default value of short variable?,0.0,correct,0,incorrect,null,incorrect,undefined,incorrect
+MC,E,Static binding uses which information for binding?,type,correct,object,incorrect,both the above,incorrect,none,incorrect
+MC,H,Which one of StringBuilder and StringBuffer is faster,StringBuffer,incorrect,StringBuilder,correct,Both the above,incorrect,None,incorrect
+MC,H,What is the default value of an instance variable,null,incorrect,0,incorrect,Depends upon type of variables,correct,not assigned,incorrect
+MC,H,Deletion is faster in LinkedList than ArrayList,true,correct,false,incorrect,Depends on the situation,incorrect,none,incorrect
+MC,H,Which method must be implemented by all threads,wait(),incorrect,start(),incorrect,stop(),incorrect,run(),correct
+MC,H,Is it necessary that try block must be followed by finally block,Yes,incorrect,No,correct,Sometimes,incorrect,none,incorrect
+MC,H,What invokes a thread run() method,Main application running the thread,incorrect,JVM invokes the thread's run() method when the thread is initially executed,correct,Start() method of the thread class,incorrect,none,incorrect
+MC,H,Which of the following is a marker interface?,seriable,correct,comparable,incorrect,cloneable,incorrect,none,incorrect
+MC,H,In which case a program is expected to recover?,if an error occurs,incorrect,if an exception occurs,correct,Both the above,incorrect,none,incorrect
+MC,H,When a finally block gets executed?,Always when a method get executed eventhough there is an exception or no exception,incorrect,Always when a try block get executed no matter exception occured or not,correct,Always when a try block get executed only if exception do not occur,incorrect,Only when exception occurs in try block code,incorrect
+MA,E,What of the following are access modifiers?,public,correct,private,correct,static,incorrect,final,incorrect
+MA,H,Select all valid statements from the following,AbstractSet extends AbstractCollection,correct,Hashset extends AbstractCollection,correct,Vector extends AbstractList,correct,none,incorrect
+MA,E,Which methods are not implemented if any class imp?,lements runnable interface,start(),correct,run(),incorrect,wait(),correct,notify() and notifyAll(),correct
+MA,M,Which of the following is a method of thread class?,public void run(),correct,Public void start(),correct,public void exit(),incorrect,public final int getPriority(),correct
+MA,M,What of the following is used to execute thread one after the another,The keyword synchronized is used,correct,the keywork synchronizable is used,incorrect,The keyword synchronize is used,incorrect,Only the first option is right,correct
+MA,M,DataInputStream is not an example of which of the following,Output stream,correct,Filterd stream,incorrect,I/O stream,correct,File stream,correct
+MA,M,Which of the following is not the parent class of Error,Throwable,incorrect,Catchable,correct,Mainerror,correct,MainException,correct
+MA,H,What of the following is not synchronized,Set,correct,LinkedList,correct,Vector,incorrect,WeakHashMap,correct
+MA,M,Which of the following are false statements,HashTable is a sub class of Dictionary,incorrect,ArrayList is a subclass of Vector,correct,LinkedList is a subclass of ArrayList,correct,Vector is a subclass of Stack,correct
+MA,E,What is NOT an interface?,An interface is a collection of abstract methods,correct,Interface is an abstract class,correct,Interface is an concrete class,incorrect,None of the above gives the correct definition of interface,incorrect
+MA,M,When a thread terminates its processing,which state will it enter into?,Waiting state(),incorrect,Running state,incorrect,Dead state,correct,Only one of the above options is correct,correct
+MA,M,Dynamic binding does not use which of the following information for binding?,type,correct,object,incorrect,object and type,incorrect,None of the above is true,incorrect
+MA,M,Which of the following is not kind of  Garbage collector thread,Non daemon thread,correct,Daemon thread,incorrect,Thread with dead state,correct,Thread with non dead state,correct
+MA,H,Which of the following is a thread safe?,StringBuilder,incorrect,StringBuffer,correct,Both the above,incorrect,either StringBuffer or StringBuilder,correct
+MA,E,Which of the following is not preferred to create a string "Welcome to Java Programming",String str="Welcome to Java Programming",incorrect,String str=new String("Welcome to Java Programming"),correct,String str;str="Welcome to java programming",correct,String str;str=new String("Welcome to Java Programming"),correct
+MA,E,All the wrapper classes in Java are not the following,private,correct,serializable,correct,immutable,correct,final,incorrect
+MA,H,The classs java.lang.Exception is,protected,incorrect,extends throwable,correct,implements throwable,incorrect,none of the above is true,incorrect
+MA,E,How many numeric data types are supported by Java,6,correct,4,incorrect,2,incoorect,more than 4,correct
+MA,E,Which of the following data type can 9.64 fall into,int,incorrect,Double,incorrect,double,correct,float,correct 
+MA,H,Which method cannot be implemented by all threads,wait(),correct,start(),correct,stop(),correct,run(),incorrect
+MA,E,What can be the datatype of the result of 2+3*5,17 byte,incorrect,17 int,correct,17 float,correct,25 int,incorrect
+MA,H,Which of the following is not a marker interface?,seriable,incorrect,comparable,correct,cloneable,correct,Only one of the above is correct,correct
+MA,E,Which of the following is not a return type?,boolean,incorrect,void,incorrect,pulic,correct,private,correct
+MA,H,What are the two parts of a value of type double?,significant digits,correct,length,incorrect,mode,incorrect,exponent,correct
+MA,H,What cannot be called as an aggregate object?,An object with only primitive attributes,correct,An instance which has only static methods,correct,An instance which has other objects,incorrect,An instance which has both static and other objects,correct
+FIB,E,The inventor of Java was_____________,James Gosling
+FIB,M,A________________ is a program that translates programs to a simpler language that the computer can execute,compiler
+FIB,M,Another term for information hiding is called ____________,encapsulation
+FIB,E,A ____________has information as either 1 or 0,bit
+FIB,E,The ____________is a part of a computer that follows instructions,processor
+FIB,E,The _____________ is a set of instructions that tells strategies for solving a program,algorithm
+FIB,M,The _____________statement is used to include another Java package in a Java source file,import
+FIB,M,It is possible to throw an exception explicitely using the ___________ statement
+FIB,M,_________________ inheritence is not supported by java,multiple
+FIB,E,A ____________________is a collection of classes and interfaces,package
+FIB,M,A_____________ variable has memory allocated only once and remains unchanged,static
+FIB,M,A subclass can call a constructor method defined by its super class by use of the ___________keyword,super
+FIB,E,Java uses ______________ to represent characters,unicode
+FIB,H,In java all user interface elements are subclasses of ______________
+FIB,H,A method declared with ______________modifier cannot be overridden,abstract
+FIB,M,Methods defined in an interface must be Public and ____________,abstract
+FIB,E,__________________members are accessible from objects and the subclass objects,public
+FIB,E,_______________members are not accessible outside object scope,private
+FIB,H,A_________________ file is a text file in the java language created by a programmer with a text editor,sourcecode
+FIB,M,The___________is a method where the source code starts running,main
+FIB,H,Say that your program was compiled without problems but when your run it something goes wrong.This is called________________,bug
+FIB,E,The ___________ are written next to program for the reader to understand the program,comments
+FIB,M,The __________statement is used to include another package source files in your current package,import
+FIB,H,__________is a java compiler,javac
+FIB,H,____________ function return a character at a specified index,charAt

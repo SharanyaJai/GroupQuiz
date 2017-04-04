@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="543.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.InstructorController">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="loadquestions" layoutX="210.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#loadQuestions" prefHeight="39.0" prefWidth="172.0" text="Load Questions" />
+      <Button fx:id="report" layoutX="210.0" layoutY="247.0" mnemonicParsing="false" onMouseClicked="#viewreport" prefHeight="39.0" prefWidth="172.0" text="View Report" />
+      <Button fx:id="logout" layoutX="209.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="39.0" prefWidth="172.0" text="Log out" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+
+<AnchorPane id="AnchorPane" fx:id="mainpane" onMouseClicked="#printer" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.ReportCreationController">
+    <children>
+        <Label layoutX="226.0" layoutY="32.0" prefHeight="29.0" prefWidth="149.0" text="Quiz Report" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <PieChart fx:id="piechart" layoutX="5.0" layoutY="78.0" prefHeight="246.0" prefWidth="273.0" title="Scores" />
+        <BarChart fx:id="barChart" layoutX="271.0" layoutY="78.0" prefHeight="246.0" prefWidth="292.0">
+            <xAxis>
+                <CategoryAxis prefHeight="15.0" prefWidth="214.0" side="BOTTOM" fx:id="xAxis" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" />
+            </yAxis>
+        </BarChart>
+        <Button fx:id="printbutton" layoutX="226.0" layoutY="324.0" mnemonicParsing="false" onAction="#printer" onMouseClicked="#printer" prefHeight="60.0" prefWidth="273.0" text="PRINT TO PDF" textFill="#790808">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Button>
+        <ImageView fx:id="logout" fitHeight="107.0" fitWidth="191.0" layoutX="571.0" layoutY="-4.0" onMouseClicked="#logout" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../logout.png" />
+            </image>
+        </ImageView>
+         
+    </children>
+</AnchorPane>

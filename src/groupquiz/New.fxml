@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="537.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.NewController">
+   <children>
+      <PieChart fx:id="pie5" layoutX="313.0" layoutY="14.0" prefHeight="246.0" prefWidth="273.0" title="Grades" />
+      <BarChart fx:id="barchart" layoutX="27.0" layoutY="14.0" prefHeight="246.0" prefWidth="273.0" title="Grades Distribution">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <BarChart fx:id="barchart1" layoutX="14.0" layoutY="250.0" prefHeight="246.0" prefWidth="273.0" title="Average Scores">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <BarChart fx:id="barchart11" layoutX="313.0" layoutY="250.0" prefHeight="246.0" prefWidth="273.0" title="Difficulty Level Scores">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <Button fx:id="nextreport" layoutX="114.0" layoutY="497.0" mnemonicParsing="false" onAction="#nextReport" onMouseClicked="#nextReport" prefHeight="39.0" prefWidth="150.0" text="NEXT" />
+      <Button fx:id="print" layoutX="347.0" layoutY="497.0" mnemonicParsing="false" onMouseClicked="#printer" prefHeight="39.0" prefWidth="162.0" text="PRINT TO PDF" />
+   </children>
+</AnchorPane>

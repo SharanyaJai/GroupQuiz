@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupquiz.StudentScreenController">
+   <children>
+      <ImageView fitHeight="514.0" fitWidth="669.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="278.0" prefHeight="27.0" prefWidth="124.0" text="Password" />
+      <Button fx:id="signupBtn" layoutX="233.0" layoutY="406.0" mnemonicParsing="false" onMouseClicked="#studentSignUp" prefHeight="39.0" prefWidth="147.0" text="SIGN UP" textFill="#ff3939">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="65.0" layoutY="225.0" prefHeight="27.0" prefWidth="136.0" text="Andrew id" />
+      <PasswordField fx:id="field2" layoutX="230.0" layoutY="272.0" />
+      <TextField fx:id="field1" layoutX="230.0" layoutY="219.0" />
+      <Button fx:id="login" layoutX="234.0" layoutY="348.0" mnemonicParsing="false" onMouseClicked="#studentLogIn" prefHeight="39.0" prefWidth="145.0" text="LOGIN" textFill="#ff3939">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
